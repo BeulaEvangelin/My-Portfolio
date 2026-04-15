@@ -206,7 +206,6 @@ function Projects() {
         <Link
           to="/project-details/kioskRedesign"
           className="bg-white p-4 rounded-md shadow-lg flex-1 mr-4 sm:mr-0 mb-6 relative group"
-          style={{ flexBasis: "calc(50% - 2rem)" }}
         >
           <div className="text-right">
             <h2 className="text-xl font-semibold text-gray-800 mb-2">

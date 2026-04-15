@@ -5,13 +5,10 @@ function ContactPopup({ onClose }) {
     <div className="fixed inset-0 z-10 overflow-y-auto bg-gray-800 bg-opacity-50 flex justify-center items-center">
       <div className="bg-white p-8 rounded-md shadow-lg w-96">
         <h2 className="text-lg font-bold mb-4">Contact Information</h2>
-        <div className="flex items-center mb-4">
-          <i className="ri-phone-line mr-2"></i>
-          <p>+1 2898341346</p>
-        </div>
+
         <div className="flex items-center mb-4">
           <i className="ri-map-pin-line mr-2"></i>
-          <p>1383 White Oaks Blvd, Oakville, Ontario, Canada</p>
+          <p>Toronto, Ontario, Canada</p>
         </div>
         <div className="flex justify-between">
           <div>

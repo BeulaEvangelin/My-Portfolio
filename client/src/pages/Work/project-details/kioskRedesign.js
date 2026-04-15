@@ -102,8 +102,8 @@ function KioskRedesignDetails() {
             </div>
           </div>
 
-          {/* Page 10 full width */}
-          <div className="flex gap-4 mb-4 sm:flex-col">
+          {/* Page 10 left, Page 8 right */}
+          <div className="flex gap-4 sm:flex-col">
             <div className="flex-1 flex items-center justify-center bg-gray-50 rounded-md p-3">
               <img
                 src="/projects/kiosk/page10.jpg"
@@ -112,11 +112,6 @@ function KioskRedesignDetails() {
                 style={{ maxHeight: "380px", objectFit: "contain", width: "100%" }}
               />
             </div>
-            <div className="flex-1"></div>
-          </div>
-
-          {/* Page 8 */}
-          <div className="flex gap-4 sm:flex-col">
             <div className="flex-1 flex items-center justify-center bg-gray-50 rounded-md p-3">
               <img
                 src="/projects/kiosk/page8.jpg"
@@ -125,7 +120,6 @@ function KioskRedesignDetails() {
                 style={{ maxHeight: "380px", objectFit: "contain", width: "100%" }}
               />
             </div>
-            <div className="flex-1"></div>
           </div>
         </div>
         <Footer />
