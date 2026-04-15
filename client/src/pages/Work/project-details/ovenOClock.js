@@ -21,7 +21,7 @@ function OvenOClockDetails() {
         <div className="bg-white p-8 rounded-md shadow-lg mb-8">
           <div className="flex items-center justify-center mb-4" style={{ backgroundColor: "#f5e6c8", borderRadius: "0.375rem" }}>
             <img
-              src="/projects/oven-o-clock/cover.jpg"
+              src="/projects/oven-o-clock/hero.jpg"
               alt="Oven O' Clock App"
               className="rounded-md"
               style={{ maxHeight: "320px", objectFit: "contain" }}

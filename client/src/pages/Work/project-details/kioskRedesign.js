@@ -103,11 +103,24 @@ function KioskRedesignDetails() {
           </div>
 
           {/* Page 10 full width */}
-          <div className="flex gap-4 sm:flex-col">
+          <div className="flex gap-4 mb-4 sm:flex-col">
             <div className="flex-1 flex items-center justify-center bg-gray-50 rounded-md p-3">
               <img
                 src="/projects/kiosk/page10.jpg"
                 alt="Kiosk Redesign - Final"
+                className="rounded-md"
+                style={{ maxHeight: "380px", objectFit: "contain", width: "100%" }}
+              />
+            </div>
+            <div className="flex-1"></div>
+          </div>
+
+          {/* Page 8 */}
+          <div className="flex gap-4 sm:flex-col">
+            <div className="flex-1 flex items-center justify-center bg-gray-50 rounded-md p-3">
+              <img
+                src="/projects/kiosk/page8.jpg"
+                alt="Kiosk Redesign - Interface Improvements"
                 className="rounded-md"
                 style={{ maxHeight: "380px", objectFit: "contain", width: "100%" }}
               />
