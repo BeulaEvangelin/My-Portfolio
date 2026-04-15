@@ -12,6 +12,9 @@ import BBBDetails from "./pages/Work/project-details/bbb";
 import ValentineVaultDetails from "./pages/Work/project-details/valentineVault";
 import CanvasChroniclesDetails from "./pages/Work/project-details/canvasChronicles";
 import IllustrationDetails from "./pages/Work/project-details/illustration";
+import TerraPunchDetails from "./pages/Work/project-details/terraPunch";
+import OvenOClockDetails from "./pages/Work/project-details/ovenOClock";
+import KioskRedesignDetails from "./pages/Work/project-details/kioskRedesign";
 import {
   HideLoading,
   SetPortfolioData,
@@ -71,6 +74,18 @@ function App() {
         <Route
           path="/project-details/illustrations"
           element={<IllustrationDetails />}
+        />
+        <Route
+          path="/project-details/terraPunch"
+          element={<TerraPunchDetails />}
+        />
+        <Route
+          path="/project-details/ovenOClock"
+          element={<OvenOClockDetails />}
+        />
+        <Route
+          path="/project-details/kioskRedesign"
+          element={<KioskRedesignDetails />}
         />
         <Route path="/About" element={<About />} />
         <Route path="/Admin" element={<Admin />} />
