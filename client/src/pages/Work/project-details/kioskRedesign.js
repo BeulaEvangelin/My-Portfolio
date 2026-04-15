@@ -19,12 +19,12 @@ function KioskRedesignDetails() {
         </div>
 
         <div className="bg-white p-8 rounded-md shadow-lg mb-8">
-          <div className="flex items-center justify-center rounded-md mb-4">
+          <div className="flex items-center justify-center rounded-md mb-4" style={{ backgroundColor: "#f5f5f5" }}>
             <img
               src="/projects/kiosk/cover.jpg"
-              alt="Kiosk Interface Analysis"
+              alt="Kiosk Redesign Overview"
               className="rounded-md"
-              style={{ maxHeight: "320px", objectFit: "contain" }}
+              style={{ maxHeight: "420px", objectFit: "contain", width: "100%" }}
             />
           </div>
           <h2 className="text-xl font-bold text-gray-800 mb-4">Overview</h2>
@@ -42,7 +42,6 @@ function KioskRedesignDetails() {
           <h2 className="text-xl font-bold text-gray-800 mb-4">
             Interface Analysis
           </h2>
-
           <p className="text-gray-700 mb-6">
             A thorough heuristic evaluation was performed on the existing kiosk
             interface, documenting issues across multiple screens including key
@@ -53,40 +52,20 @@ function KioskRedesignDetails() {
 
           {/* Two images side by side */}
           <div className="flex gap-4 mb-4 sm:flex-col">
-            <div className="flex-1 flex items-center justify-center bg-gray-50 rounded-md p-2">
-              <img
-                src="/projects/kiosk/page2.jpg"
-                alt="Kiosk Analysis - Payment Screen"
-                className="rounded-md"
-                style={{ maxHeight: "280px", objectFit: "contain" }}
-              />
-            </div>
-            <div className="flex-1 flex items-center justify-center bg-gray-50 rounded-md p-2">
-              <img
-                src="/projects/kiosk/page3.jpg"
-                alt="Kiosk Analysis - Order Summary"
-                className="rounded-md"
-                style={{ maxHeight: "280px", objectFit: "contain" }}
-              />
-            </div>
-          </div>
-
-          {/* Two more images side by side */}
-          <div className="flex gap-4 mb-4 sm:flex-col">
-            <div className="flex-1 flex items-center justify-center bg-gray-50 rounded-md p-2">
+            <div className="flex-1 flex items-center justify-center bg-gray-50 rounded-md p-3">
               <img
                 src="/projects/kiosk/page4.jpg"
                 alt="Kiosk Analysis - Design Selection"
                 className="rounded-md"
-                style={{ maxHeight: "280px", objectFit: "contain" }}
+                style={{ maxHeight: "380px", objectFit: "contain", width: "100%" }}
               />
             </div>
-            <div className="flex-1 flex items-center justify-center bg-gray-50 rounded-md p-2">
+            <div className="flex-1 flex items-center justify-center bg-gray-50 rounded-md p-3">
               <img
                 src="/projects/kiosk/page5.jpg"
                 alt="Kiosk Analysis - Key Selection"
                 className="rounded-md"
-                style={{ maxHeight: "280px", objectFit: "contain" }}
+                style={{ maxHeight: "380px", objectFit: "contain", width: "100%" }}
               />
             </div>
           </div>
@@ -96,7 +75,6 @@ function KioskRedesignDetails() {
           <h2 className="text-xl font-bold text-gray-800 mb-4">
             Redesign Proposal
           </h2>
-
           <p className="text-gray-700 mb-6">
             The redesigned interface addresses the identified usability issues
             with improved visual hierarchy, clearer call-to-action buttons,
@@ -106,42 +84,35 @@ function KioskRedesignDetails() {
 
           {/* Two images side by side */}
           <div className="flex gap-4 mb-4 sm:flex-col">
-            <div className="flex-1 flex items-center justify-center bg-gray-50 rounded-md p-2">
+            <div className="flex-1 flex items-center justify-center bg-gray-50 rounded-md p-3">
               <img
                 src="/projects/kiosk/page6.jpg"
                 alt="Kiosk Redesign Proposal"
                 className="rounded-md"
-                style={{ maxHeight: "280px", objectFit: "contain" }}
+                style={{ maxHeight: "380px", objectFit: "contain", width: "100%" }}
               />
             </div>
-            <div className="flex-1 flex items-center justify-center bg-gray-50 rounded-md p-2">
-              <img
-                src="/projects/kiosk/page7.jpg"
-                alt="Kiosk Redesign Details"
-                className="rounded-md"
-                style={{ maxHeight: "280px", objectFit: "contain" }}
-              />
-            </div>
-          </div>
-
-          {/* Two more images side by side */}
-          <div className="flex gap-4 mb-4 sm:flex-col">
-            <div className="flex-1 flex items-center justify-center bg-gray-50 rounded-md p-2">
+            <div className="flex-1 flex items-center justify-center bg-gray-50 rounded-md p-3">
               <img
                 src="/projects/kiosk/page9.jpg"
                 alt="Kiosk Redesign - Accessibility"
                 className="rounded-md"
-                style={{ maxHeight: "280px", objectFit: "contain" }}
+                style={{ maxHeight: "380px", objectFit: "contain", width: "100%" }}
               />
             </div>
-            <div className="flex-1 flex items-center justify-center bg-gray-50 rounded-md p-2">
+          </div>
+
+          {/* Page 10 full width */}
+          <div className="flex gap-4 sm:flex-col">
+            <div className="flex-1 flex items-center justify-center bg-gray-50 rounded-md p-3">
               <img
                 src="/projects/kiosk/page10.jpg"
                 alt="Kiosk Redesign - Final"
                 className="rounded-md"
-                style={{ maxHeight: "280px", objectFit: "contain" }}
+                style={{ maxHeight: "380px", objectFit: "contain", width: "100%" }}
               />
             </div>
+            <div className="flex-1"></div>
           </div>
         </div>
         <Footer />

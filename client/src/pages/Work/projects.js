@@ -186,12 +186,11 @@ function Projects() {
             </h2>
             <p className="text-gray-700 mb-2">Baking Timer & Recipe App UI</p>
           </div>
-          <div className="w-full h-64 rounded-md overflow-hidden" style={{ backgroundColor: "#f5e6c8" }}>
+          <div className="w-full h-64 flex items-center justify-center rounded-md overflow-hidden" style={{ backgroundColor: "#f9ead7" }}>
             <img
               src="/projects/oven-o-clock/cover.jpg"
               alt="Oven O' Clock"
-              className="w-full h-full object-cover"
-              style={{ objectPosition: "35% 55%", transform: "scale(1.6)" }}
+              className="w-full h-full object-contain"
             />
           </div>
           {/* Icon container */}
@@ -215,7 +214,7 @@ function Projects() {
             </h2>
             <p className="text-gray-700 mb-2">Digital Interface Critique & Redesign</p>
           </div>
-          <div className="w-full h-64 flex items-center justify-center bg-white rounded-md overflow-hidden">
+          <div className="w-full h-64 flex items-center justify-center rounded-md overflow-hidden" style={{ backgroundColor: "#f5f5f5" }}>
             <img
               src="/projects/kiosk/cover.jpg"
               alt="Kiosk Redesign"
